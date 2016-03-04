@@ -1,0 +1,38 @@
+.banner {
+  color: $dark-blue;
+  text-align: center;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  margin-top: -100px;
+  background-image: image-url('banner_pic.jpg');
+}
+
+.banner-content {
+  background-color: $dark-blue;
+  padding-bottom: 30px;
+}
+
+.banner-box-one {
+  background-color: $dark-blue;
+  color: white;
+  margin: 4px;
+  h1 {
+    margin-top: 30px;
+  }
+}
+
+.banner-box-two {
+  background-color: $dark-blue;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 4px;
+   h1 {
+    margin-top: 11px;
+    margin-bottom: 22px;
+  }
+}

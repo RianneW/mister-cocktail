@@ -1,7 +1,9 @@
-<h1>Add your dose</h1>
-<%= simple_form_for([@cocktail, @dose]) do |f| %>
-  <%= f.error_notification %>
-  <%= f.collection_select(:ingredient_id, @available_ingredients, :id, :name) %>
-  <%= f.input :description %>
-  <%= f.submit %>
-<% end %>
+<div class="container" style="text-align: center;">
+  <h1>Add your dose</h1>
+  <%= simple_form_for([@cocktail, @dose]) do |f| %>
+    <%= f.error_notification %>
+    <%= f.collection_select(:ingredient_id, @available_ingredients, :id, :name) %>
+    <%= f.input :description %>
+    <%= f.submit %>
+  <% end %>
+</div>

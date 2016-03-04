@@ -9,3 +9,8 @@
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "rum")
+Ingredient.create(name: "sparklin water")
+Ingredient.create(name: "sugar")
+Ingredient.create(name: "lime juice")
+Ingredient.create(name: "mandarin juice")
