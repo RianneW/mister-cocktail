@@ -2,7 +2,15 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
+
+# security gem
 gem 'figaro'
+
+# photo upload gem
+gem 'cloudinary'
+
+# gem to upload files associeted to model
+gem 'carrierwave'
 
 # Gemfile
 gem 'bootstrap-sass'

@@ -1,12 +1,22 @@
-<h1>List of Cocktails!</h1>
-<ul>
-  <% @cocktails.each do |cocktail| %>
-  <li>
-  <%= link_to cocktail.name, cocktail_path(cocktail) %>
-  </li>
-  <% end %>
-</ul>
+<div class="container" style="text-align: center;">
+  <h1>List of Cocktails!</h1>
 
-<%= link_to "Thirsty? Add a new cocktail", new_cocktail_path, { class: "btn btn-primary" } %>
+  <%= cl_image_tag("pwahdet7zxikg4oyhbfz.jpg",
+        width: 400, height: 300, crop: :fill) %>
 
+  <hr>
+
+  <ul>
+    <% @cocktails.each do |cocktail| %>
+    <li>
+    <%= link_to cocktail.name, cocktail_path(cocktail) %>
+    </li>
+    <% end %>
+  </ul>
+
+  <hr>
+
+
+  <%= link_to "Thirsty? Add a new cocktail", new_cocktail_path, { class: "btn btn-primary" } %>
+</div>
 
